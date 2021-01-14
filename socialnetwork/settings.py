@@ -127,7 +127,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_DIRS = [
-    BASE_DIR / 'static_project'
+    BASE_DIR / 'static'
 ]
 
 STATIC_ROOT = BASE_DIR / "static_cdn" / "static_root"
